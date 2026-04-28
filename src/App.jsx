@@ -2,8 +2,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from './lib/AuthContext'
 import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/Dashboard'
-//import HomeworkPage from './pages/HomeworkPage'
-//import GamesPage from './pages/GamesPage'
+import HomeworkPage from './pages/HomeworkPage'
+import GamesPage from './pages/GamesPage'
 import Navbar from './components/Navbar'
 
 function ProtectedRoute({ children }) {
